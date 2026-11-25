@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Abid Mehsud, BS Computer Science student at Iqra University Islamabad.">
+  <meta name="author" content="Abid Mehsud">
+  <title>Abid Mehsud - Portfolio</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header with Flexbox Navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Abid Mehsud</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="media.html" class="nav-link">Favourite Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero-card">
+      <div class="hero-img">
+        <img src="images/profile.png" alt="Abid Mehsud Profile Photo" width="160" height="160">
+      </div>
+      <div class="hero-content">
+        <h1>Hi, I'm Abid Mehsud</h1>
+        <p class="hero-title">BS Computer Science Student | Web Programming (CSC 337)</p>
+        <p class="hero-desc">
+          Welcome to my portfolio website. I am currently in my 6th semester at Iqra University, Islamabad Campus. 
+          This website was developed as part of Assignment 1 to demonstrate clean HTML5 semantics, CSS layouts, 
+          and responsive web design principles without using any external templates or JavaScript.
+        </p>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn btn-primary">Contact Me</a>
+          <a href="hobbies.html" class="btn btn-secondary">View Hobbies</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two-Column Layout (Main Articles + Course Details Aside) -->
+    <div class="home-columns">
+      
+      <!-- Primary Column -->
+      <div class="primary-col">
+        
+        <!-- About Me Section -->
+        <section class="content-box">
+          <h2 class="section-heading">About Me</h2>
+          <article>
+            <p>
+              I am an undergraduate student pursuing a Bachelor of Science in Computer Science at Iqra University Islamabad (H-9). 
+              Over the course of my degree, I have developed a strong interest in software engineering, core web technologies, 
+              and problem-solving through code.
+            </p>
+            <p style="margin-top: 0.85rem;">
+              My goal is to build reliable, user-friendly software applications. Currently, I am expanding my practical knowledge 
+              in web development by studying standard semantic HTML, responsive CSS layouts using Flexbox and CSS Grid, and version 
+              control workflows with Git and GitHub.
+            </p>
+          </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="content-box">
+          <h2 class="section-heading">Skills &amp; Technologies</h2>
+          <article>
+            <p>Here are the programming languages and technical tools I work with in my coursework:</p>
+            <div class="skills-list">
+              <span class="skill-item">HTML5</span>
+              <span class="skill-item">CSS3 (Flexbox &amp; Grid)</span>
+              <span class="skill-item">Responsive Design</span>
+              <span class="skill-item">C++</span>
+              <span class="skill-item">Python</span>
+              <span class="skill-item">SQL / Relational Databases</span>
+              <span class="skill-item">Git &amp; GitHub</span>
+            </div>
+          </article>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="content-box">
+          <h2 class="section-heading">Coursework Projects</h2>
+          <article style="margin-bottom: 1.25rem;">
+            <h3 class="sub-heading">Portfolio Website (CSC 337)</h3>
+            <p>
+              Designed and implemented a 4-page responsive website using clean HTML5 semantic tags and external CSS. 
+              The layout is fully responsive down to 375px mobile viewports without horizontal scrolling.
+            </p>
+          </article>
+          <article>
+            <h3 class="sub-heading">Student Database Management Project</h3>
+            <p>
+              Built a simple database project for managing student registrations and grades using SQL queries 
+              and relational schema design.
+            </p>
+          </article>
+        </section>
+
+      </div>
+
+      <!-- Aside Sidebar -->
+      <aside class="sidebar-col">
+        
+        <div class="course-info-card">
+          <h2 class="section-heading" style="font-size: 1.15rem; margin-bottom: 1rem;">Course Details</h2>
+          
+          <div class="info-row">
+            <span class="info-label">Course Title</span>
+            <span class="info-value">Web Programming Languages</span>
+          </div>
+          
+          <div class="info-row">
+            <span class="info-label">Course Code</span>
+            <span class="info-value">CSC 337</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Instructor</span>
+            <span class="info-value">Dr. Faheem Shaukat</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Campus</span>
+            <span class="info-value">Iqra University Islamabad (H-9)</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Program &amp; Semester</span>
+            <span class="info-value">BS(CS) - 6th Semester</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Assignment</span>
+            <span class="info-value">Assignment No. 1</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Due Date</span>
+            <span class="info-value">25-Nov-2026</span>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Abid Mehsud &bull; Iqra University Islamabad Campus (H-9)</p>
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

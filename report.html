@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 1 Report - Abid Mehsud (CSC 337)</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 1.5cm;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #1e293b;
+      background: #ffffff;
+    }
+    .page-break {
+      page-break-after: always;
+    }
+
+    /* Cover Page */
+    .cover-container {
+      height: 92vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 2px solid #0f172a;
+      padding: 3rem 2.5rem;
+    }
+    .cover-header {
+      text-align: center;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 2rem;
+    }
+    .univ-name {
+      font-size: 20pt;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .univ-campus {
+      font-size: 13pt;
+      font-weight: 600;
+      color: #475569;
+      margin-top: 4px;
+    }
+    .dept-name {
+      font-size: 12pt;
+      color: #334155;
+      margin-top: 6px;
+    }
+    .cover-body {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .course-badge {
+      font-size: 12pt;
+      font-weight: 600;
+      color: #1e40af;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.75rem;
+    }
+    .assignment-title {
+      font-size: 22pt;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+    }
+    .assignment-subtitle {
+      font-size: 13pt;
+      color: #64748b;
+    }
+    .links-box {
+      margin-top: 2rem;
+      background-color: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 1.25rem;
+      text-align: left;
+      font-size: 10.5pt;
+    }
+    .links-box div {
+      margin-bottom: 0.4rem;
+    }
+    .links-box strong {
+      color: #0f172a;
+      display: inline-block;
+      width: 130px;
+    }
+    .cover-footer {
+      border-top: 1px solid #cbd5e1;
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5pt;
+    }
+    .meta-col {
+      line-height: 1.6;
+    }
+    .meta-col strong {
+      color: #0f172a;
+    }
+
+    /* Content Pages */
+    .report-section {
+      margin-bottom: 2.5rem;
+    }
+    .section-title {
+      font-size: 15pt;
+      font-weight: 700;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.25rem;
+    }
+    .screenshot-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      page-break-inside: avoid;
+    }
+    .screenshot-card img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .screenshot-label {
+      font-size: 11pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 0.35rem;
+    }
+    .live-url-indicator {
+      font-size: 9.5pt;
+      color: #1e40af;
+      font-family: monospace;
+      margin-bottom: 0.5rem;
+    }
+    .tech-explanation {
+      font-size: 10pt;
+      color: #334155;
+      line-height: 1.5;
+      background-color: #f8fafc;
+      padding: 0.75rem 1rem;
+      border-left: 3px solid #1e40af;
+      border-radius: 0 4px 4px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== COVER PAGE ==================== -->
+  <div class="cover-container page-break">
+    <div class="cover-header">
+      <div class="univ-name">Iqra University</div>
+      <div class="univ-campus">Islamabad Campus (Sector H-9)</div>
+      <div class="dept-name">Department of Computing and Technology</div>
+    </div>
+
+    <div class="cover-body">
+      <div class="course-badge">CSC 337: Web Programming Languages</div>
+      <h1 class="assignment-title">Assignment No. 1<br>Professional Portfolio Website</h1>
+      <p class="assignment-subtitle">Multi-Page Responsive Portfolio Built with Pure Semantic HTML5 &amp; CSS3</p>
+
+      <div class="links-box">
+        <div><strong>GitHub Repo:</strong> https://github.com/abidmehsud/abid-mehsud-portfolio</div>
+        <div><strong>Live Website:</strong> https://abidmehsud.github.io/abid-mehsud-portfolio/</div>
+        <div><strong>Implementation:</strong> 100% Pure HTML5 &amp; CSS3 (Zero JavaScript, No External Frameworks)</div>
+      </div>
+    </div>
+
+    <div class="cover-footer">
+      <div class="meta-col">
+        <div><strong>Student Name:</strong> Abid Mehsud</div>
+        <div><strong>Roll Number / ID:</strong> 45892</div>
+        <div><strong>Degree Program:</strong> BS Computer Science (6th Semester)</div>
+        <div><strong>Section:</strong> Morning 12:30 / Evening 03:30</div>
+      </div>
+      <div class="meta-col" style="text-align: right;">
+        <div><strong>Instructor:</strong> Dr. Faheem Shaukat</div>
+        <div><strong>Total Marks:</strong> 20</div>
+        <div><strong>Due Date:</strong> 25-Nov-2026</div>
+        <div><strong>Submission:</strong> LMS (Links + PDF Report)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SECTION 1: DESKTOP PAGES ==================== -->
+  <div class="report-section page-break">
+    <h2 class="section-title">Part 1: All 4 Pages at Desktop View (1280px Width)</h2>
+
+    <!-- Screenshot 1: Home Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 1.1: Home Page (index.html) - Desktop View</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/index.html</div>
+      <img src="screenshots/1_desktop_home.png" alt="Desktop view of Home Page">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Structured with semantic <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code> elements, accompanied by complete meta tags and favicon links.<br>
+        <strong>CSS Techniques Used:</strong> Flexbox is used for the header alignment (<code>justify-content: space-between</code>), a two-column layout for main articles and sidebar aside, clean border styling, and a sticky header positioning (<code>position: sticky; top: 0</code>).
+      </div>
+    </div>
+
+    <!-- Screenshot 2: Hobbies Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 1.2: Hobbies Page (hobbies.html) - Desktop View</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/hobbies.html</div>
+      <img src="screenshots/2_desktop_hobbies.png" alt="Desktop view of Hobbies Page">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Employs ordered list <code>&lt;ol&gt;</code> for daily engineering habits, unordered list <code>&lt;ul&gt;</code> for creative interests, comprehensive descriptions for CS2 and Cricket, and two structured <code>&lt;table&gt;</code> elements with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code>.<br>
+        <strong>CSS Techniques Used:</strong> Two-column grid layouts for lists and game spotlight cards, full-width responsive tables with border-collapse, subtle zebra striping (<code>nth-child(even)</code>), and interactive row hover effects (<code>tr:hover</code>).
+      </div>
+    </div>
+  </div>
+
+  <div class="report-section page-break">
+    <h2 class="section-title">Part 1 (Continued): Media and Contact Desktop Pages</h2>
+
+    <!-- Screenshot 3: Media Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 1.3: Favourite Media Page (media.html) - Desktop View</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/media.html</div>
+      <img src="screenshots/3_desktop_media.png" alt="Desktop view of Media Page">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Employs <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> for local and online imagery, semantic articles for social media updates, and 5 responsive YouTube <code>&lt;iframe&gt;</code> video players.<br>
+        <strong>CSS Techniques Used:</strong> Two-column layout built strictly using CSS Grid (<code>display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;</code>) and an intrinsic aspect-ratio container (<code>padding-bottom: 56.25%</code>) for responsive 16:9 video embeds.
+      </div>
+    </div>
+
+    <!-- Screenshot 4: Contact Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 1.4: Contact Page (contact.html) - Desktop View</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/contact.html</div>
+      <img src="screenshots/4_desktop_contact.png" alt="Desktop view of Contact Page">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Form elements including <code>&lt;form&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;button&gt;</code>, embedded Google Maps <code>&lt;iframe&gt;</code> for Iqra University H-9, and study peer articles.<br>
+        <strong>CSS Techniques Used:</strong> Two-column layout separating contact details from the interactive form, styled inputs with border transitions and blue focus glow rings (<code>:focus</code>), and auto-fitting grid for peer directory cards.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SECTION 2: MOBILE 375px VIEW ==================== -->
+  <div class="report-section page-break">
+    <h2 class="section-title">Part 2: Mobile Responsiveness at 375px Width (Chrome DevTools Phone View)</h2>
+
+    <!-- Screenshot 5: Mobile Home Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 2.1: Home Page at 375px Mobile Viewport</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/index.html</div>
+      <img src="screenshots/5_mobile_home_375px.png" alt="Home Page at 375px Mobile View" style="max-width: 480px; margin: 0 auto 0.75rem auto;">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> The mobile viewport meta tag <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> ensures fluid scaling on mobile devices.<br>
+        <strong>CSS Techniques Used:</strong> Responsive media query <code>@media (max-width: 768px)</code> and <code>@media (max-width: 480px)</code> stack the hero section into a vertical layout and convert navigation links to fluid wraps. Verified zero horizontal scrolling.
+      </div>
+    </div>
+
+    <!-- Screenshot 6: Mobile Contact Page -->
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 2.2: Contact Page at 375px Mobile Viewport</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/contact.html</div>
+      <img src="screenshots/6_mobile_contact_375px.png" alt="Contact Page at 375px Mobile View" style="max-width: 480px; margin: 0 auto 0.75rem auto;">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Form fields utilize 100% fluid widths and touch-friendly vertical stack.<br>
+        <strong>CSS Techniques Used:</strong> Form inputs and the Google Map iframe fluidly adjust to 100% width. Global <code>overflow-x: hidden</code> and wrapper constraints guarantee completely clean mobile rendering with no horizontal scrollbar.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SECTION 3: TABLE HOVER EFFECT ==================== -->
+  <div class="report-section page-break">
+    <h2 class="section-title">Part 3: Interactive Table Hover Effect in Action</h2>
+
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 3.1: Table Row Hover State on hobbies.html</div>
+      <div class="live-url-indicator">Live Address: https://abidmehsud.github.io/abid-mehsud-portfolio/hobbies.html</div>
+      <img src="screenshots/7_table_hover_effect.png" alt="Table Hover Effect Demonstration">
+      <div class="tech-explanation">
+        <strong>HTML Tags Used:</strong> Standard tabular data structure with <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;tbody&gt;</code>, and <code>&lt;td&gt;</code>.<br>
+        <strong>CSS Techniques Used:</strong> The interactive hover state is governed by <code>.data-table tbody tr:hover { background-color: #e2e8f0; cursor: pointer; transition: background-color 0.15s ease; }</code>. This provides immediate visual confirmation for the active row without requiring any JavaScript.
+      </div>
+    </div>
+
+    <!-- ==================== SECTION 4: W3C VALIDATOR RESULTS ==================== -->
+    <h2 class="section-title" style="margin-top: 2rem;">Part 4: W3C HTML5 &amp; CSS3 Validator Results (0 Errors)</h2>
+
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 4.1: W3C Nu HTML Checker &amp; CSS Validation Service (0 Errors)</div>
+      <div class="live-url-indicator">Validation Target: index.html, hobbies.html, media.html, contact.html, css/style.css</div>
+      <img src="screenshots/8_w3c_validator_results.png" alt="W3C Validator Results">
+      <div class="tech-explanation">
+        <strong>HTML5 Validation:</strong> Passed through the W3C Nu HTML Checker with zero errors and zero warnings. Verified proper <code>&lt;!DOCTYPE html&gt;</code>, valid semantic nesting, character encoding, and required image alt attributes.<br>
+        <strong>CSS3 Validation:</strong> Passed through the W3C CSS Validation Service with zero syntax errors, confirming compliance for all Flexbox, CSS Grid, custom properties, and media query specifications.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SECTION 5: GITHUB REPO & PAGES ==================== -->
+  <div class="report-section">
+    <h2 class="section-title">Part 5: GitHub Repository, Commit History &amp; Settings Pages</h2>
+
+    <div class="screenshot-card">
+      <div class="screenshot-label">Screenshot 5.1: GitHub Repository File List, Commit History &amp; Published Live Link</div>
+      <div class="live-url-indicator">Repository: https://github.com/abidmehsud/abid-mehsud-portfolio | Live: https://abidmehsud.github.io/abid-mehsud-portfolio/</div>
+      <img src="screenshots/9_github_repo_and_pages.png" alt="GitHub Repository, Commits and Pages Status">
+      <div class="tech-explanation">
+        <strong>Repository Structure:</strong> All file names strictly follow lowercase convention (<code>index.html</code>, <code>hobbies.html</code>, <code>media.html</code>, <code>contact.html</code>, <code>css/style.css</code>) to avoid case-sensitivity issues on Unix servers.<br>
+        <strong>Commit History:</strong> 12 incremental, descriptive commits using conventional semantic commit messages (e.g. <code>docs:</code>, <code>feat:</code>, <code>style:</code>, <code>test:</code>, <code>release:</code>). Published directly from the <code>main</code> branch via GitHub Pages.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

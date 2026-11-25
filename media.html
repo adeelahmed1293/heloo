@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Favourite web development media, coding videos, and screenshots curated by Abid Mehsud.">
+  <meta name="author" content="Abid Mehsud">
+  <title>Favourite Media - Abid Mehsud</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header with Flexbox Navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Abid Mehsud</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="media.html" class="nav-link active">Favourite Media</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-wrapper">
+
+    <div class="page-intro">
+      <h1>Favourite Media</h1>
+      <p>A collection of social updates, project screenshots, and recommended web development video tutorials.</p>
+    </div>
+
+    <!-- Two-Column Layout using CSS Grid -->
+    <div class="media-layout-grid">
+
+      <!-- LEFT COLUMN: Social Media Posts, Screenshots, Local & Online Images -->
+      <section class="media-col" aria-label="Social media posts and images">
+        <h2 class="section-heading">Social Updates &amp; Images</h2>
+
+        <!-- Social Media Post 1 -->
+        <article class="post-card">
+          <div class="post-meta">
+            <span class="post-author">Abid Mehsud</span>
+            <span class="post-date">Nov 2026</span>
+          </div>
+          <p class="post-content">
+            Currently working on my Web Programming Assignment 1 at Iqra University. Building a multi-page portfolio 
+            from scratch using clean HTML5 semantics, Flexbox for the navbar, and CSS Grid for the media layout.
+          </p>
+          <p class="post-tags">#WebDev #HTML5 #CSS #IqraUniversity</p>
+        </article>
+
+        <!-- Social Media Post 2 (Local Screenshot) -->
+        <article class="media-box">
+          <img src="images/social-post-preview.png" alt="Social post screenshot about web development coursework" width="600" height="320">
+          <figcaption>
+            <strong>Figure 1 (Local Screenshot):</strong> A screenshot of my social media update sharing my project progress with classmates.
+          </figcaption>
+        </article>
+
+        <!-- Local Image (Requirement: One Local Image) -->
+        <article class="media-box">
+          <img src="images/web-dev-local.png" alt="Diagram illustrating HTML5 and CSS3 layout concepts" width="800" height="500">
+          <figcaption>
+            <strong>Figure 2 (Local Image):</strong> Diagram showing the core concepts of semantic HTML5, Flexbox, and CSS Grid layout structures.
+          </figcaption>
+        </article>
+
+        <!-- Online Image (Requirement: One Online Image) -->
+        <article class="media-box">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Laptop on desk with code editor open" width="800" height="533">
+          <figcaption>
+            <strong>Figure 3 (Online Image):</strong> Clean coding workspace setup for web development practice (Photo from Unsplash).
+          </figcaption>
+        </article>
+
+      </section>
+
+      <!-- RIGHT COLUMN: At least 5 Embedded YouTube Videos -->
+      <section class="media-col" aria-label="YouTube video tutorials">
+        <h2 class="section-heading">Web Development Video Tutorials</h2>
+
+        <!-- Video 1 -->
+        <article class="video-item">
+          <div class="video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/kUMe1FH4CHE" 
+              title="HTML Full Course - Build a Website Tutorial" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-details">
+            <h4>1. HTML Full Course - FreeCodeCamp</h4>
+            <p>A comprehensive tutorial covering all essential HTML tags, document structure, forms, and tables.</p>
+          </div>
+        </article>
+
+        <!-- Video 2 -->
+        <article class="video-item">
+          <div class="video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/fYq5PXgSsbE" 
+              title="Flexbox CSS in 20 Minutes" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-details">
+            <h4>2. Learn Flexbox in 20 Minutes</h4>
+            <p>Clear explanation of CSS Flexbox properties including justify-content, align-items, and flex-direction.</p>
+          </div>
+        </article>
+
+        <!-- Video 3 -->
+        <article class="video-item">
+          <div class="video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/rg7Fvvl3taU" 
+              title="CSS Grid Full Course" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-details">
+            <h4>3. CSS Grid Tutorial for Beginners</h4>
+            <p>Guide to two-dimensional layouts, grid-template-columns, fr units, and creating multi-column responsive pages.</p>
+          </div>
+        </article>
+
+        <!-- Video 4 -->
+        <article class="video-item">
+          <div class="video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/RGOj5yH7evk" 
+              title="Git and GitHub for Beginners" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-details">
+            <h4>4. Git and GitHub for Beginners</h4>
+            <p>Explaining version control, making commits, pushing to remote repositories, and hosting with GitHub Pages.</p>
+          </div>
+        </article>
+
+        <!-- Video 5 -->
+        <article class="video-item">
+          <div class="video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/srvUrASNj0s" 
+              title="Responsive Web Design Tutorial" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-details">
+            <h4>5. Responsive Web Design &amp; Media Queries</h4>
+            <p>Practical guide on setting viewports and writing CSS media queries to ensure smooth mobile browsing.</p>
+          </div>
+        </article>
+
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Abid Mehsud &bull; Iqra University Islamabad Campus (H-9)</p>
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
